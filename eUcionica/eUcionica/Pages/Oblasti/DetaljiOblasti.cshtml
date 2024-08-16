@@ -1,0 +1,35 @@
+﻿@page
+@model eUcionica.Pages.Oblasti.DetaljiOblastiModel
+@{
+    ViewData["Title"] = "Detalji oblasti";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="card" style="width: 900px; background-color: #161d26;">
+        <div class="card-body text-center">
+            <h3 class="card-title">Detalji oblasti</h3>
+            <hr />
+            @if (Model.Oblast != null)
+            {
+                <h5 class="card-subtitle mb-2">Naziv oblasti: @Model.Oblast.Name</h5>
+                @if (Model.Oblast.Predmet != null)
+                {
+                    <h6 class="card-subtitle mb-3 text-muted" style="white">Predmet: @Model.Oblast.Predmet.NazivPredmeta</h6>
+                }
+            }
+            <h6 class="card-subtitle mb-2">Pitanja:</h6>
+            <div class="row justify-content-center">
+                @if (Model.Pitanja != null)
+                {
+                    @foreach (var pitanje in Model.Pitanja)
+                    {
+                        <div class="col-md-5 mb-3" style="width:400px">
+                            @pitanje.PitanjeText
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>

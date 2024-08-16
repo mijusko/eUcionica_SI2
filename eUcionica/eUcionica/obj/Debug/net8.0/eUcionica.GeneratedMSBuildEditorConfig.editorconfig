@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = eUcionica
+build_property.RootNamespace = eUcionica
+build_property.ProjectDir = C:\Users\mihaj\source\eUcionica\Mihajlo_Jankovic_eUcionica\eUcionica\eUcionica\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mihaj\source\eUcionica\Mihajlo_Jankovic_eUcionica\eUcionica\eUcionica
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Oblasti/BrisanjeOblasti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aVxCcmlzYW5qZU9ibGFzdGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Oblasti/DetaljiOblasti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aVxEZXRhbGppT2JsYXN0aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Oblasti/DodavanjeOblasti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aVxEb2RhdmFuamVPYmxhc3RpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Oblasti/MenjanjeOblasti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aVxNZW5qYW5qZU9ibGFzdGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Oblasti/SpisakOblasti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aVxTcGlzYWtPYmxhc3RpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Pitanja/BrisanjePitanja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0YW5qYVxCcmlzYW5qZVBpdGFuamEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Pitanja/DetaljiPitanja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0YW5qYVxEZXRhbGppUGl0YW5qYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Pitanja/KreiranjePitanja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0YW5qYVxLcmVpcmFuamVQaXRhbmphLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Pitanja/MenjanjePitanja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0YW5qYVxNZW5qYW5qZVBpdGFuamEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Pitanja/SpisakPitanja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0YW5qYVxTcGlzYWtQaXRhbmphLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Predmeti/BrisanjePredmeta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldGlcQnJpc2FuamVQcmVkbWV0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Predmeti/DodavanjePredmeta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldGlcRG9kYXZhbmplUHJlZG1ldGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Predmeti/MenjanjePredmeta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldGlcTWVuamFuamVQcmVkbWV0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Predmeti/SpisakPredmeta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldGlcU3Bpc2FrUHJlZG1ldGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Testovi/GenerisanjeTesta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdG92aVxHZW5lcmlzYW5qZVRlc3RhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Testovi/TestZnanja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdG92aVxUZXN0Wm5hbmphLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mihaj/source/eUcionica/Mihajlo_Jankovic_eUcionica/eUcionica/eUcionica/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v6zfz9zx1l

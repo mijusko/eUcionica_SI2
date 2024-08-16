@@ -1,0 +1,78 @@
+﻿@page
+@model eUcionica.Pages.Predmeti.SpisakPredmetaModel
+@{
+    ViewData["Title"] = "Spisak predmeta";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<div class="container mt-3" style="max-width:1000px">
+    <div class="row">
+        <div class="col d-flex justify-content-between align-items-centert">
+            <h3>Spisak svih predmeta</h3>
+            <button type="button" class="btn custom-btn" onclick="window.location.href='@Url.Page("DodavanjePredmeta")'">Dodaj novi predmet</button>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <table class="table table-striped" style="width:950px">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Naziv predmeta</th>
+                        <th scope="col" class="text-right">Upravljanje predmetom</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Predmet)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.NazivPredmeta)</td>
+                            <td class="text-right">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-primary mx-1" onclick="window.location.href='@Url.Page("./MenjanjePredmeta", new { id = item.ID })'">Izmeni predmet</button>
+                                    <button type="button" class="btn btn-danger" onclick="window.location.href='@Url.Page("./BrisanjePredmeta", new { id = item.ID })'">Obriši predmet</button>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<style>
+    td {
+        font-size: 20px;
+        color: white;
+    }
+
+    .custom-btn {
+        display: block;
+        width: 200px;
+        height: 50px;
+        background-color: #2396fa;
+        border: 2px solid #2396fa;
+        color: white;
+        text-align: center;
+        line-height: 16x;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+        .custom-btn:hover {
+            background-color: #21252a;
+            border-color: #2396fa;
+            color: white;
+        }
+
+    .btn-group {
+        justify-content: flex-end;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+</style>

@@ -1,0 +1,38 @@
+﻿@page
+@model eUcionica.Pages.Pitanja.DetaljiPitanjaModel
+@{
+    ViewData["Title"] = "Detalji pitanja";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div style="background-color: #161d26; padding: 20px; width: 600px; margin: 0 auto; padding-left:150px;">
+    <h3>Detalji pitanja</h3>
+    <hr>
+
+    <div>
+        <h6 style="display: inline;">Naziv predmeta: </h6>
+        <span>@(Model.Pitanje?.Predmet?.NazivPredmeta ?? "N/A")</span>
+    </div>
+
+    <div>
+        <h6 style="display: inline;">Naziv oblasti: </h6>
+        <span>@(Model.Pitanje?.Oblast?.Name ?? "N/A")</span>
+    </div>
+
+    <div>
+        <h6 style="display: inline;">Nivo težine: </h6>
+        <span>@(Model.Pitanje?.NivoTezine ?? "N/A")</span>
+    </div>
+
+    <div>
+        <h6 style="display: inline;">Postavka pitanja: </h6>
+        <span>@(Model.Pitanje?.PitanjeText ?? "N/A")</span>
+    </div>
+
+    <div>
+        <h6 style="display: inline;">Tačan odgovor: </h6>
+        <span>@(Model.Pitanje?.TacanOdgovor ?? "N/A")</span>
+    </div>
+
+
+</div>

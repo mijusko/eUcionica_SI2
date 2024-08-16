@@ -1,0 +1,51 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<h2 class="card-title text-center mb-4">Dobrodošli na portal eUčionice</h2>
+<div class="container d-flex justify-content-center align-items-center">
+<p>eUčionica je interaktivni portal namenjen učenju i proveri znanja. Na platformi su dostupni različiti predmeti, podeljeni na specifične oblasti. Svaka oblast sadrži pitanja i testove koji omogućavaju korisnicima da testiraju svoje znanje i poboljšaju razumevanje različitih tema. Portal je osmišljen kako bi olakšao učenje i pružio korisnicima priliku da se pripreme za ispite ili jednostavno prošire svoje znanje.</p>
+</div>
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="text-center">
+        <a href="/Predmeti/SpisakPredmeta" class="btn custom-btn mb-4">Spisak Predmeta</a>
+        <a href="/Oblasti/SpisakOblasti" class="btn custom-btn mb-4">Stranica Oblasti</a>
+        <a href="/Pitanja/SpisakPitanja" class="btn custom-btn mb-4">Stranica sa Pitanjima</a>
+        <a href="/Testovi/GenerisanjeTesta" class="btn custom-btn mb-4">Proveri znanje</a>
+    </div>
+</div>
+
+<style>
+    p{
+        text-align: center;
+        width: 600px;
+        margin-bottom:70px;
+        font-size: 18px;
+
+    }
+    .custom-btn {
+        display: block;
+        width: 250px;
+        height: 70px;
+        background-color: #2396fa;
+        border: 2px solid #2396fa;
+        color: white;
+        text-align: center;
+        line-height: 60px;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 0px 20px 20px 20px;
+    }
+
+        .custom-btn:hover {
+            background-color: #21252a;
+            border-color: #2396fa;
+            color: white
+        }
+
+</style>

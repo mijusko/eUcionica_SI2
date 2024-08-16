@@ -1,0 +1,101 @@
+﻿@page
+@model eUcionica.Pages.Pitanja.SpisakPitanjaModel
+@{
+    ViewData["Title"] = "Spisak pitanja";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+
+<div class="mb-3 d-flex justify-content-between">
+    <h2>Spisak svih pitanja</h2>
+    <form method="post" class="form-inline">
+        <div class="input-group">
+            <input type="text" class="form-control" asp-for="SearchText" placeholder="Pretraži" style="width:400px">
+            <div class="input-group-append">
+                <button type="submit" class="btn btn-primary" style=" display: block;
+        width: 100px;
+        height: 50px;
+        background-color: #2396fa;
+        border: 2px solid #2396fa;
+        color: white;
+        text-align: center;
+        line-height: 16x;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 10px;">
+                    Pretraži
+                </button>
+            </div>
+        </div>
+    </form>
+    <div class="btn-group ml-1">
+        <a asp-page="KreiranjePitanja" class="btn btn-primary" style=" display: block;
+        width: 200px;
+        height: 50px;
+        background-color: #2396fa;
+        border: 2px solid #2396fa;
+        color: white;
+        text-align: center;
+        line-height: 16x;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 10px;">Dodavanje pitanja</a>
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                <a href="?sort=oblast">Oblast</a>
+            </th>
+            <th>
+                <a href="?sort=predmet">Predmet</a>
+            </th>
+            <th>
+                <a href="?sort=tezina">Težina</a>
+            </th>
+            <th style="padding-left:90px">Pitanja</th>
+            <th class="text-center">Upravljanje predmetom</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Pitanje != null)
+        {
+            foreach (var item in Model.Pitanje)
+            {
+                <tr>
+                    <td class="align-middle">@((item.Oblast != null) ? item.Oblast.Name : "")</td>
+
+                    <td class="align-middle">@((item.Predmet != null) ? item.Predmet.NazivPredmeta : "")</td>
+
+                    <td class="align-middle">@Html.DisplayFor(modelItem => item.NivoTezine)</td>
+                    <td class="align-middle">@((item.PitanjeText != null) ? item.PitanjeText : "")</td>
+                    <td class="align-middle text-center">
+                        <a asp-page="./DetaljiPitanja" asp-route-id="@item.ID" class="btn btn-info">Detalji</a>
+                        <a asp-page="./MenjanjePitanja" asp-route-id="@item.ID" class="btn btn-primary mr-1">Izmeni</a>
+                        <a asp-page="./BrisanjePitanja" asp-route-id="@item.ID" class="btn btn-danger mr-1">Obriši</a>
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+
+<style>
+    td {
+        font-size: 16px;
+        color: white;
+    }
+</style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
